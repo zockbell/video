@@ -47,7 +47,7 @@ your browser does not support the video tag
 ```
 var aVideos = document.querySelectorAll('video')
 for(var i=0; i<aVideos.length; i++){
-	aVideos[i].setAttribute('controlslist', 'nodownload');  // 屏蔽视频中的全屏功能
+	aVideos[i].setAttribute('controlslist', 'nofullscreen');  // 屏蔽视频中的全屏功能
 	aVideos[i].disablePictureInPicture = true;   			// 屏蔽视频中的画中画功能
 	aVideos[i].setAttribute('controlslist', 'nodownload');  // 屏蔽视频中的下载功能
 }
